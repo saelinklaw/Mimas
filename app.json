@@ -1,14 +1,18 @@
 {
-  "name": "shadowsocks-heroku",
-  "description": "shadowsocks-heroku",
-  "env": {
-    "METHOD": {
-      "description": "加密算法",
-      "value": "aes-256-cfb"
+    "name": "V2Ray",
+    "description": "Deploy V2ray on Heroku.",
+    "keywords": ["V2Ray"],
+    "env": {
+        "ID": {
+            "description": "UUID",
+            "value": "ad806487-2d26-4636-98b6-ab85cc8521f7"
+        },
+        "WSPATH": {
+            "description": "WebSocket Path",
+            "value": "/"
+        }
     },
-    "KEY": {
-      "description": "app-password",
-      "value": ""
-    }
-  }
+    "website": "https://ibcl.us/Heroku-V2Ray_20191014/",
+    "repository": "https://github.com/bclswl0827/v2ray-heroku",
+    "stack": "container"
 }
